@@ -3,8 +3,4 @@
 use Illuminate\Support\Facades\Route;
 
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('test', , 'TestControlle@testpage');
+Route::get('/','TestController@testpage');
